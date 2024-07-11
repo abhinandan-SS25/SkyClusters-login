@@ -1,0 +1,6 @@
+{
+    "API": {
+        "production": "https://abhinandansaha.pythonanywhere.com/api/auth/",
+        "development": "http://localhost:5000/api/auth/"
+    }
+}
