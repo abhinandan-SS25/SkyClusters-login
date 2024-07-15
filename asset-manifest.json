@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/SkyClusters-login/static/css/main.c28715ef.css",
-    "main.js": "/SkyClusters-login/static/js/main.39c06cd1.js",
+    "main.js": "/SkyClusters-login/static/js/main.458b3163.js",
     "index.html": "/SkyClusters-login/index.html",
     "main.c28715ef.css.map": "/SkyClusters-login/static/css/main.c28715ef.css.map",
-    "main.39c06cd1.js.map": "/SkyClusters-login/static/js/main.39c06cd1.js.map"
+    "main.458b3163.js.map": "/SkyClusters-login/static/js/main.458b3163.js.map"
   },
   "entrypoints": [
     "static/css/main.c28715ef.css",
-    "static/js/main.39c06cd1.js"
+    "static/js/main.458b3163.js"
   ]
 }
