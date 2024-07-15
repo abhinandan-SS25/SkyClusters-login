@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { BsFillCloudsFill } from "react-icons/bs";
+import config from '../config.json';
 
 function Login(props) {
 
@@ -27,7 +28,7 @@ function Login(props) {
             return;
         }
 
-        fetch('http://localhost:5000/api/auth/login', {
+        fetch(config.API.production + 'login', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
