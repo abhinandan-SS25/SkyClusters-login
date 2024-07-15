@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { BsFillCloudsFill } from "react-icons/bs";
+import config from '../config.json';
 
-function Registration() {
+function Registration(props) {
 
     const [username, setUsername] = React.useState("");
     const [email, setEmail] = React.useState("");
@@ -78,7 +79,10 @@ function Registration() {
 
     };
 
-
+    const loader = <div className='spinner flex'>
+    <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    </div>
+    
     return (
         <div className="flex">
             <div className="navbar flex">
