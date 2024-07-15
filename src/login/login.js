@@ -81,13 +81,13 @@ function Login(props) {
             </div>
             <div className="login-container">
                 <p id="responseMessage">{error}</p>
-                    <form id="loginForm">
-                        <label for="email">Enter your registered email.</label>
-                        <input type="email" id="email" name="email" value={email} onChange={handleEmailChange} required />
-                        <label for="password">Enter your account password.</label>
-                        <input type="password" id="password" name="password" value={password} onChange={handlePasswordChange} required />
-                        {loading? loader: <button type="submit" onClick={handleSubmit} disabled={loading}>Login</button>}
-                    </form>
+                <form id="loginForm">
+                    <label for="email">Enter your registered email.</label>
+                    <input type="email" id="email" name="email" value={email} onChange={handleEmailChange} required />
+                    <label for="password">Enter your account password.</label>
+                    <input type="password" id="password" name="password" value={password} onChange={handlePasswordChange} required />
+                    {loading? loader: <button type="submit" onClick={handleSubmit} disabled={loading}>Login</button>}
+                </form>
             </div>
         </div>
     );
