@@ -97,7 +97,7 @@ function Registration(props) {
                 </div>
             </div>
             <div className="login-container">
-                <p id="responseMessage">Error</p>
+                <p id="responseMessage">{error}</p>
                 <form id="loginForm">
                     <label for="username">Choose a username.</label>
                     <input type="text" id="username" name="username" required value={username} onChange={handleUsernameChange} />
